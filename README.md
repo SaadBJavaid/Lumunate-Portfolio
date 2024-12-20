@@ -2,6 +2,9 @@
 
 A portfolio website for Lumunate.
 
+## [Figma](https://www.figma.com/design/LyYAHD38ptDKw1s4VXsIF3/Lumunate-Portfolio?node-id=4210-1026&p=f&t=DHmZEbrK0rduAhJt-0)
+https://www.figma.com/design/LyYAHD38ptDKw1s4VXsIF3/Lumunate-Portfolio?node-id=4210-1026&p=f&t=DHmZEbrK0rduAhJt-0
+
 ## Setup
 
 1. Clone the repository
