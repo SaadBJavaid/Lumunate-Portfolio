@@ -64,14 +64,23 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="absolute md:bottom-0 bottom-[5%] left-0 flex justify-center w-full my-auto md:h-full">
-              <Image
-                src={"/logo.svg"}
-                width={350}
-                height={-1}
-                alt="Footer logo"
-                className="object-center !w-[50%] md:!w-[350px]"
-              />
+            <div className="absolute md:bottom-0 bottom-[5%] left-0 flex justify-center items-center w-full my-auto md:h-full">
+              <div className="">
+                <div>
+                  <Image
+                    src={"/logo.svg"}
+                    width={350}
+                    height={-1}
+                    alt="Footer logo"
+                    className="object-center !w-[125px] md:!w-[350px]"
+                  />
+                </div>
+                <div className="flex gap-x-3 justify-center">
+                  <Link href="/terms-of-service" className="text-[12px] md:text-[14px] hover:text-forest-400 text-[#BABABA]">Terms</Link>
+                  <div className="w-[1px] h-auto bg-[linear-gradient(to_bottom,theme(colors.forest.900),theme(colors.forest.700),theme(colors.forest.900))]"></div>
+                  <Link href="/terms-of-service" className="text-[12px] md:text-[14px] hover:text-forest-400 text-[#BABABA]">Policy</Link>
+                </div>
+              </div>
             </div>
             <div className="absolute right-0 flex items-center md:top-0 top-[14%]  my-auto md:h-full">
               <p className="font-raleway text-[12px] md:text-[14px] font-light text-[#BABABA]">
