@@ -78,7 +78,7 @@ export default function Footer() {
                 <div className="flex gap-x-3 justify-center">
                   <Link href="/terms-of-service" className="text-[12px] md:text-[14px] hover:text-forest-400 text-[#BABABA]">Terms</Link>
                   <div className="w-[1px] h-auto bg-[linear-gradient(to_bottom,theme(colors.forest.900),theme(colors.forest.700),theme(colors.forest.900))]"></div>
-                  <Link href="/terms-of-service" className="text-[12px] md:text-[14px] hover:text-forest-400 text-[#BABABA]">Policy</Link>
+                  <Link href="/privacy-policy" className="text-[12px] md:text-[14px] hover:text-forest-400 text-[#BABABA]">Policy</Link>
                 </div>
               </div>
             </div>

@@ -5,7 +5,7 @@ const TermsService = () => {
   return (
     <section className=" y-12 md:py-20  px-4 sm:px-6">
       <div className="container mx-auto max-w-[1440px] ">
-        <h1 className=" animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-menda text-[1.3rem] font-medium text-transparent md:text-4xl max-w-5xl mx-auto ">
+        <h1 className="text-center animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-menda text-[1.3rem] font-medium text-transparent md:text-4xl max-w-5xl mx-auto ">
           Terms of Service (TOS)
         </h1>
         <div className="my-4 space-y-3 ">
@@ -211,11 +211,11 @@ const TermsService = () => {
           <ul className="text-[14px] list-disc ml-10 leading-[35px] ">
             <li>
               <Link
-                href="mailto: marketing@luminate.com"
+                href="mailto: info@lumunate.com"
                 className="flex items-center"
               >
                 <span className="hover:text-forest-400">
-                <b>Email : </b>marketing@lumunate.com
+                <b>Email : </b>info@lumunate.com
                 </span>
               </Link>
             </li>
@@ -233,7 +233,7 @@ const TermsService = () => {
               </Link>
             </li>
             <li>
-              Office Address: Office # 2, 3rd Floor, Plaza 74, Bahria Springs
+            <b>Office Address:</b> Office # 2, 3rd Floor, Plaza 74, Bahria Springs
               (North) Commercial, Bahria Town Phase 7, Rawalpindi, Pakistan
             </li>
           </ul>
