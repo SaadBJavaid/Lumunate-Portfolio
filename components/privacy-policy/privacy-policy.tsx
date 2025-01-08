@@ -152,7 +152,7 @@ const PrivacyPolicy = () => {
         </div>
 
         <div className="mb-4 pt-8 space-y-3 ">
-          <h2 className=" text-[1rem] font-semibold ">9. Children's Privacy</h2>
+          <h2 className=" text-[1rem] font-semibold ">9. Children&apos;s Privacy</h2>
           <ul className="text-[14px] list-disc ml-10 leading-[35px] ">
             <li>
               Our services are <b>not directed to children under 18 years old.</b>
