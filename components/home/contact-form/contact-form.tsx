@@ -49,7 +49,8 @@ export default function ContactFormClient() {
   };
 
   return (
-    <form data-aos="fade-up"
+    <form
+      data-aos="fade-up"
       onSubmit={handleSubmit(onSubmit)}
       className="flex flex-col w-full max-w-[700px]"
     >
@@ -114,15 +115,33 @@ export default function ContactFormClient() {
             borderImageSlice: 1,
           }}
         >
-          <option className=" bg-black" value="">Select Project Type</option>
-          <option className=" bg-black" value="uiux">UI/UX Design</option>
-          <option className=" bg-black" value="webDev">Web Development and Design</option>
-          <option className=" bg-black" value="mobileDev">Mobile App Development</option>
-          <option className=" bg-black" value="digitalMarketing">Custom CMS Development</option>
-          <option className=" bg-black" value="digitalMarketing">Systems Integration</option>
-          <option className=" bg-black" value="digitalMarketing">IT Consulting & Cloud Solutions</option>
-          <option className=" bg-black" value="digitalMarketing">Digital Marketing Services</option>
-          <option className=" bg-black" value="digitalMarketing">Other</option>
+          <option className=" bg-black" value="">
+            Select Project Type
+          </option>
+          <option className=" bg-black" value="uiux">
+            UI/UX Design
+          </option>
+          <option className=" bg-black" value="webDev">
+            Web Development and Design
+          </option>
+          <option className=" bg-black" value="mobileDev">
+            Mobile App Development
+          </option>
+          <option className=" bg-black" value="digitalMarketing">
+            Custom CMS Development
+          </option>
+          <option className=" bg-black" value="digitalMarketing">
+            Systems Integration
+          </option>
+          <option className=" bg-black" value="digitalMarketing">
+            IT Consulting & Cloud Solutions
+          </option>
+          <option className=" bg-black" value="digitalMarketing">
+            Digital Marketing Services
+          </option>
+          <option className=" bg-black" value="digitalMarketing">
+            Other
+          </option>
         </select>
         {errors.projectType && (
           <p className="text-red-500">{errors.projectType.message}</p>
@@ -142,11 +161,21 @@ export default function ContactFormClient() {
             borderImageSlice: 1,
           }}
         >
-          <option className=" bg-black" value="">Select Contact Method</option>
-          <option className=" bg-black" value="email">Email</option>
-          <option className=" bg-black" value="whatsapp">WhatsApp</option>
-          <option className=" bg-black" value="email">Skype</option>
-          <option className=" bg-black" value="whatsapp">Phone Call</option>
+          <option className=" bg-black" value="">
+            Select Contact Method
+          </option>
+          <option className=" bg-black" value="email">
+            Email
+          </option>
+          <option className=" bg-black" value="whatsapp">
+            WhatsApp
+          </option>
+          <option className=" bg-black" value="email">
+            Skype
+          </option>
+          <option className=" bg-black" value="whatsapp">
+            Phone Call
+          </option>
         </select>
         {errors.preferredContactMethod && (
           <p className="text-red-500">
@@ -177,11 +206,9 @@ export default function ContactFormClient() {
       <div className="mx-auto">
         <button
           type="submit"
-          className="btn  group mb-4 w-full bg-gradient-to-t from-forest-600 to-forest-500 hover:bg-gradient-to-t hover:from-forest-800 hover:to-forest-900 hover:transition-all hover:duration-150 text-white rounded-full px-8 py-3 text-[16px]"
+          className="btn  group mb-4 w-full bg-forest-600 hover:bg-forest-800 hover:transition-all hover:duration-150 text-white rounded-full px-8 py-3 text-[16px]"
         >
-          <span className="relative inline-flex items-center">
-          Submit
-          </span>
+          <span className="relative inline-flex items-center">Submit</span>
         </button>
       </div>
     </form>

@@ -3,6 +3,7 @@ import "./css/style.css";
 import localFont from "next/font/local";
 
 import Header from "@/components/ui/header";
+import GoogleTagManager from "@/components/google-tag-manager/google-tag-manager";
 import ScrollToTop from "@/components/scrollToTop/ScrollToTop";
 
 
@@ -167,9 +168,17 @@ export const metadata = {
   title: "Lumunate",
   description: "We specialize in web and mobile development, systems integration and digital marketing to help businesses thrive in today’s fast-paced digital world.",
   keywords: ["Lumunate", "Portfolio", "Next.js", "React", "Web Development"],
-  author: "Fizo",
+  authors: [
+    {
+      name: "Faizan Haq",
+      url: "https://fizoneechan.com"
+    },
+    {
+      name: "Lumunate",
+      url: "https://lumunate.com"
+    },
+  ],
   viewport: "width=device-width, initial-scale=1.0",
-  charset: "UTF-8",
 };
 
 export default function RootLayout({
@@ -179,13 +188,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <GoogleTagManager />
+      </head>
       <body
         className={`${nacelle.variable} ${mendaFont.variable} ${ralewayFont.variable} bg-black font-raleway text-base text-gray-200 antialiased`}
       >
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
           {children}
-          <ScrollToTop/>
+          <ScrollToTop />
         </div>
       </body>
     </html>

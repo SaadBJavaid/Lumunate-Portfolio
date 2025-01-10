@@ -25,6 +25,7 @@ import Testimonials from "@/components/home/testimonials";
 import Cta from "@/components/home/cta";
 import WhyChooseUs from "@/components/home/why-choose-us";
 import ContactForm from "@/components/home/contact-us";
+import OurTeam from "@/components/home/our-team";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
       <WhyChooseUs />
       <Workflows />
       <Testimonials />
+      <OurTeam/>
       <ContactForm />
       <Cta />
     </>

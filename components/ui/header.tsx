@@ -14,20 +14,45 @@ export default function Header() {
           </div>
 
           <ul className="sm:flex items-center justify-end md:gap-10 gap-6 hidden">
-          <li>
-              <Link href="#services" className="hover:text-forest-400 duration-200">Services</Link>
+            <li>
+              <Link
+                href="#services"
+                className="hover:text-forest-400 duration-200"
+              >
+                Services
+              </Link>
             </li>
             <li>
-              <Link href="#about" className="hover:text-forest-400 duration-200">About</Link>
+              <Link
+                href="#about"
+                className="hover:text-forest-400 duration-200"
+              >
+                About
+              </Link>
             </li>
             <li>
-              <Link href="#features" className="hover:text-forest-400 duration-200">Features</Link>
+              <Link
+                href="#features"
+                className="hover:text-forest-400 duration-200"
+              >
+                Features
+              </Link>
             </li>
             <li>
-              <Link href="#testimonials" className="hover:text-forest-400 duration-200">Testimonials</Link>
+              <Link
+                href="#testimonials"
+                className="hover:text-forest-400 duration-200"
+              >
+                Testimonials
+              </Link>
             </li>
             <li>
-              <Link href="#contact" className="hover:text-forest-400 duration-200">Contact</Link>
+              <Link
+                href="#contact"
+                className="hover:text-forest-400 duration-200"
+              >
+                Contact
+              </Link>
             </li>
           </ul>
 
@@ -37,7 +62,7 @@ export default function Header() {
               <Link
                 href="https://calendly.com/saad-b-javaid22/consultation"
                 target="_blank"
-                className="btn-sm  bg-gradient-to-t from-forest-600 to-forest-500  hover:bg-gradient-to-t hover:from-forest-800 hover:to-forest-900 hover:transition-all hover:duration-150 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
+                className="btn-sm  bg-forest-600 hover:bg-forest-800 hover:transition-all hover:duration-150 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
               >
                 Let&apos;s Talk
               </Link>

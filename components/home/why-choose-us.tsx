@@ -18,7 +18,7 @@ export default function WhyChooseUs() {
           src="/images/blurred-shape-gray.svg"
           width={760}
           height={668}
-          alt="Blurred shape"
+          alt="Lumunate About Us - Blurred shape"
         />
       </div>
       <div
@@ -30,7 +30,7 @@ export default function WhyChooseUs() {
           src="/images/blurred-shape.svg"
           width={760}
           height={668}
-          alt="Blurred shape"
+          alt="Lumunate About Us - Blurred shape"
         />
       </div>
       <div className="mx-auto max-w-[1440px] px-4 sm:px-6">
@@ -56,7 +56,7 @@ export default function WhyChooseUs() {
                   src="/images/icons/Frame 2.svg"
                   width={29}
                   height={29}
-                  alt="Web Development and Design"
+                  alt="Lumunate About Us - Frame"
                 />
                 <div className="mb-4">
                   <h3 className="font-menda font-semibold text-[1rem] text-gray-200">
@@ -84,7 +84,7 @@ export default function WhyChooseUs() {
                   src="/images/icons/workflow.svg"
                   width={29}
                   height={29}
-                  alt="Web Development and Design"
+                  alt="Lumunate About Us - work Flow"
                 />
                 <div className="mb-4">
                   <h3 className="font-menda font-semibold text-[1rem] text-gray-200">
@@ -111,7 +111,7 @@ export default function WhyChooseUs() {
                   src="/images/icons/market-analysis.svg"
                   width={29}
                   height={29}
-                  alt="Web Development and Design"
+                  alt="Lumunate About Us - Market Analysis"
                 />
                 <div className="mb-4">
                   <h3 className="font-menda font-semibold text-[1rem] text-gray-200">
@@ -139,7 +139,7 @@ export default function WhyChooseUs() {
                   src="/images/icons/network-tree.svg"
                   width={29}
                   height={29}
-                  alt="Web Development and Design"
+                  alt="Lumunate About Us - Network"
                 />
                 <div className="mb-4">
                   <h3 className="font-menda font-semibold text-[1rem] text-gray-200">
@@ -167,7 +167,7 @@ export default function WhyChooseUs() {
                   src="/images/icons/Lock-Cloud.svg"
                   width={29}
                   height={29}
-                  alt="Web Development and Design"
+                  alt="Lumunate About Us - Lock Cloud"
                 />
                 <div className="mb-4">
                   <h3 className="font-menda font-semibold text-[1rem] text-gray-200">
@@ -195,7 +195,7 @@ export default function WhyChooseUs() {
                   src="/images/icons/file-securtiry.svg"
                   width={29}
                   height={29}
-                  alt="Web Development and Design"
+                  alt="Lumunate About Us - File Security"
                 />
                 <div className="mb-4">
                   <h3 className="font-menda font-semibold text-[1rem] text-gray-200">
@@ -232,7 +232,7 @@ export default function WhyChooseUs() {
               data-aos-delay={400}
             >
               <Link
-                className="btn group mb-4 w-auto bg-gradient-to-t from-forest-600 to-forest-500 hover:bg-gradient-to-t hover:from-forest-800 hover:to-forest-900 hover:transition-all hover:duration-150 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 rounded-full px-16"
+                className="btn group mb-4 w-auto bg-forest-600 hover:bg-forest-800 hover:transition-all hover:duration-150 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 rounded-full px-16"
                 href="https://calendly.com/saad-b-javaid22/consultation"
                 target="_blank"
               >

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HeroHome() {
   return (
-    <section style={{height:"calc(100vh - 77px"}} className=" ">
+    <section style={{ height: "calc(100vh - 77px" }} className=" ">
       <div className="mx-auto max-w-[1440px] h-full px-4 sm:px-6">
         {/* Hero content */}
         <div className="pb-12 pt-8 md:pb-20 h-full">
@@ -16,7 +16,6 @@ export default function HeroHome() {
               Empowering Your Business with
               <br />
               Cutting-Edge Digital Solutions
-
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -31,16 +30,16 @@ export default function HeroHome() {
             </div>
             
             <div
-              className="max-w-[1440px] overflow-hidden flex-1  -ml-3 w-full"
+              className="max-w-[1440px] overflow-hidden flex-1  md:-ml-3 w-full"
               data-aos="fade-up"
             >
               <Image
-                src={"/images/Illustration.png"}
+                src={"/images/Hero_img.png"}
                 className=" !h-full object-cover object-center"
                 width={1623}
                 height={538}
                 layout="responsive"
-                alt="Features"
+                alt="Lumunate Portfolio - Hero"
               />
             </div>
             <div
@@ -50,7 +49,7 @@ export default function HeroHome() {
               data-aos-anchor-placement="top-bottom"
             >
               <Link
-                className="btn group mb-4 bg-gradient-to-t from-forest-600 to-forest-500 hover:bg-gradient-to-t hover:from-forest-800 hover:to-forest-900 hover:transition-all hover:duration-150 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 w-auto rounded-full px-16 mt-8"
+                className="btn group mb-4 bg-forest-600 hover:bg-forest-800 hover:transition-all hover:duration-150 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 w-auto rounded-full px-16 mt-8"
                 href="https://calendly.com/saad-b-javaid22/consultation"
                 target="_blank"
               >

@@ -32,7 +32,7 @@ export default function Workflows() {
                   src={"/images/projects/Ayse.png"}
                   width={350}
                   height={288}
-                  alt="Workflow 01"
+                  alt="Lumunate Projects - Ayse"
                 />
                 {/* Content */}
                 <div className="p-6">
@@ -70,7 +70,7 @@ export default function Workflows() {
                   src={"/images/projects/Zeal.png"}
                   width={350}
                   height={288}
-                  alt="Workflow 01"
+                  alt="Lumunate Projects - Zeal"
                 />
                 {/* Content */}
                 <div className="p-6">
@@ -107,7 +107,7 @@ export default function Workflows() {
                   src={"/images/projects/Koinfolio.png"}
                   width={350}
                   height={288}
-                  alt="Workflow 01"
+                  alt="Lumunate Projects - Koinfolio"
                 />
                 {/* Content */}
                 <div className="p-6">
@@ -146,7 +146,7 @@ export default function Workflows() {
                   src={"/images/projects/FastClean.png"}
                   width={350}
                   height={288}
-                  alt="Workflow 01"
+                  alt="Lumunate Projects - Fast Clean"
                 />
                 {/* Content */}
                 <div className="p-6">
@@ -185,7 +185,7 @@ export default function Workflows() {
                   src={"/images/projects/Maps.png"}
                   width={350}
                   height={288}
-                  alt="Workflow 01"
+                  alt="Lumunate Projects - Map Mavens"
                 />
                 {/* Content */}
                 <div className="p-6">
@@ -224,7 +224,7 @@ export default function Workflows() {
                   src={"/images/projects/AceMyExam.png"}
                   width={350}
                   height={288}
-                  alt="Workflow 01"
+                  alt="Lumunate Projects - AceMyExam"
                 />
                 {/* Content */}
                 <div className="p-6">
