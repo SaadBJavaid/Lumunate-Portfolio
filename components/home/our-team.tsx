@@ -18,7 +18,7 @@ const OurTeam = () => {
       description: "Technical strategy and innovation.",
       description2:
         "Anas drives technical excellence, leading the development team with expertise in all tech stacks and scalable architectures.",
-      image: "/images/team-members/anas.png",
+      image: "/images/team-members/Anas.jpeg",
       alt: "Lumunate Our Team - Anas Bin Arif",
     },
     {
@@ -50,10 +50,10 @@ const OurTeam = () => {
     },
     {
       name: "Hassan",
-      role: "Lead Fullstack Developer",
+      role: "Content Marketing Lead",
       description: "Strategic leadership and business growth.",
-      description2: "Strategic leadership and business growth.",
-      image: "/images/team-members/Saad.png",
+      description2: "Specializes in content strategy and execution by focusing on audience engagement, storytelling excellence and results-driven campaigns that elevate brand presence.",
+      image: "/images/team-members/hassan.jpeg",
       alt: "Lumunate Our Team - Hassan",
     },
   ];
