@@ -5,7 +5,6 @@ import localFont from "next/font/local";
 import Header from "@/components/ui/header";
 import GoogleTagManager from "@/components/google-tag-manager/google-tag-manager";
 import ScrollToTop from "@/components/scrollToTop/ScrollToTop";
-import type { Viewport } from 'next'
 
 
 const nacelle = localFont({
@@ -179,15 +178,7 @@ export const metadata = {
       url: "https://lumunate.com"
     },
   ],
-  // viewport: "width=device-width, initial-scale=1.0",
 };
-
-export const viewport: Viewport = {
-  width: 'device-width',
-  initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
-}
 
 export default function RootLayout({
   children,

@@ -6,7 +6,7 @@ export default function HeroHome() {
     <section style={{ height: "calc(100vh - 77px" }} className=" ">
       <div className="mx-auto max-w-[1440px] h-full px-4 sm:px-6">
         {/* Hero content */}
-        <div className="py-8 h-full">
+        <div className="py-3 h-full">
           {/* Section header */}
           <div className="text-center h-full flex flex-col">
             <h1
