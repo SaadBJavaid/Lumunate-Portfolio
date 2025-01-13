@@ -6,7 +6,7 @@ export default function HeroHome() {
     <section style={{ height: "calc(100vh - 77px" }} className=" ">
       <div className="mx-auto max-w-[1440px] h-full px-4 sm:px-6">
         {/* Hero content */}
-        <div className="pb-12 pt-8 md:pb-20 h-full">
+        <div className="py-8 h-full">
           {/* Section header */}
           <div className="text-center h-full flex flex-col">
             <h1
@@ -30,12 +30,12 @@ export default function HeroHome() {
             </div>
             
             <div
-              className="max-w-[1440px] overflow-hidden flex-1  md:-ml-3 w-full"
+              className="max-w-[1440px] overflow-hidden flex-1 w-full"
               data-aos="fade-up"
             >
               <Image
-                src={"/images/Hero_img.png"}
-                className=" !h-full object-cover object-center"
+                src={"/images/hero-img.png"}
+                className="!h-full object-cover object-center"
                 width={1623}
                 height={538}
                 layout="responsive"
