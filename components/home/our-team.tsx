@@ -87,10 +87,10 @@ const OurTeam = () => {
                       <h5 className="text-[1.25rem] font-normal">{member.role}</h5>
                       <h4 className="text-[1.25rem] font-bold mt-1">{member.name}</h4>
                       <p className="text-center italic group-hover:hidden block text-[14px]">
-                        {member.description}
+                      &quot;{member.description}&quot;
                       </p>
                       <p className="text-center italic hidden group-hover:block transition-all duration-300 text-[14px] px-[8px]">
-                        {member.description2}
+                      &quot;{member.description2}&quot;
                       </p>
                     </div>
                   </div>
