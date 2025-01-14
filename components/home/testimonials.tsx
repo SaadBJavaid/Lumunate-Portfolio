@@ -211,7 +211,7 @@ export default function Testimonials() {
             <Carousel
               responsive={responsive}
               autoPlay={true}
-              autoPlaySpeed={3000}
+              autoPlaySpeed={4000}
               infinite={true}
               arrows={true}
               swipeable={true}
@@ -220,22 +220,23 @@ export default function Testimonials() {
               customTransition="transform 300ms ease-in-out"
               afterChange={(nextSlide) => setActiveIndex(nextSlide)} 
             >
-              {testimonials.map((testimonial, index) => (
+              {testimonials.map((testimonial, index) => {
+                return(
                 <div key={testimonial.id}
-                className={`p-5 transition-all duration-100 ease-in-out overflow-hidden ${
-                  activeIndex === testimonial.id ? "md:h-[350px] h-full" : "h-full md:h-auto "
+                className={`md:p-5 p-2 transition-all duration-100 ease-in-out overflow-hidden ${
+                  activeIndex === testimonial.id ? "md:scale-100 md:opacity-100 md:h-[350px] h-full" : "scale-75 md:opacity-50"
                 }`}>
                   <div
                     data-aos="fade-up"
                     key={index}
-                    className={`group flex h-full sm:w-[640px] w-[358px]`}
+                    className={`group pr-2 flex h-full sm:w-[640px] w-[358px]`}
                   >
                     <Testimonial testimonial={testimonial}>
                       {testimonial.content}
                     </Testimonial>
                   </div>
                 </div>
-              ))}
+              )})}
             </Carousel>
           </div>
         </div>
