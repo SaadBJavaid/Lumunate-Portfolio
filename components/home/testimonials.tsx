@@ -223,7 +223,7 @@ export default function Testimonials() {
               {testimonials.map((testimonial, index) => {
                 return(
                 <div key={testimonial.id}
-                className={`md:p-5 p-2 transition-all duration-100 ease-in-out overflow-hidden ${
+                className={`md:p-5 p-2 transition-all duration-500 ease-in-out overflow-hidden ${
                   activeIndex === testimonial.id ? "md:scale-100 md:opacity-100 md:h-[350px] h-full" : "scale-75 md:opacity-50"
                 }`}>
                   <div
