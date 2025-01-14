@@ -56,7 +56,7 @@ export default function ContactFormClient() {
     >
       {submitStatus.message && (
         <div
-          className={`p-4 rounded-md ${
+          className={`fixed top-1 z-30 right-1 p-4 rounded-md ${
             submitStatus.type === "success"
               ? "bg-green-50 text-green-800"
               : "bg-red-50 text-red-800"

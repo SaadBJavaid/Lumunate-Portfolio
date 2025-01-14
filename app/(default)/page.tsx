@@ -1,4 +1,5 @@
 
+
 export const metadata = {
   title: "Lumunate - Home",
   description: "Partner with Lumunate, a full-service digital agency offering web and mobile app development, IT consulting, cloud solutions, systems integration, digital marketing and custom CMS development. Delivering innovative, scalable, and user-centric technology solutions to drive your business growth.",
@@ -7,14 +8,14 @@ export const metadata = {
     "IT Consulting",
     "Cloud Solutions",
     "Digital Marketing",
-    "CMS Development",
     "Custom Software",
     "API Integration",
     "SEO Optimization",
     "UX/UI Design",],
-  author: "Fizo",
-  viewport: "width=device-width, initial-scale=1.0",
-  charset: "UTF-8",
+  authors: [
+    { name: "Saad Javaid" },
+    { name: "Lumunate" }
+  ],
 };
 
 import PageIllustration from "@/components/home/page-illustration";

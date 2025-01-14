@@ -18,7 +18,7 @@ const OurTeam = () => {
       description: "Technical strategy and innovation.",
       description2:
         "Anas drives technical excellence, leading the development team with expertise in all tech stacks and scalable architectures.",
-      image: "/images/team-members/anas.png",
+      image: "/images/team-members/Anas.jpeg",
       alt: "Lumunate Our Team - Anas Bin Arif",
     },
     {
@@ -49,27 +49,30 @@ const OurTeam = () => {
       alt: "Lumunate Our Team - Romaisa",
     },
     {
-      name: "Hassan",
-      role: "Lead Fullstack Developer",
+      name: "Heer",
+      role: "Content Marketing Lead",
       description: "Strategic leadership and business growth.",
-      description2: "Strategic leadership and business growth.",
-      image: "/images/team-members/Saad.png",
-      alt: "Lumunate Our Team - Hassan",
+      description2:
+        "Specializes in content strategy and execution by focusing on audience engagement, storytelling excellence and results-driven campaigns that elevate brand presence.",
+      image: "/images/team-members/Heer.jpeg",
+      alt: "Lumunate Our Team - Heer",
     },
   ];
   return (
     <section>
       <div className="mx-auto max-w-[1440px] md:py-20 py-12 px-4 sm:px-6">
-        <h1
-          className="mb-[32px] text-center animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-menda text-[1.3rem] font-medium text-transparent md:text-4xl max-w-5xl mx-auto"
-          data-aos="fade-up"
-        >
+        <h1 className="mb-[32px] text-center animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-menda text-[1.3rem] font-medium text-transparent md:text-4xl max-w-5xl mx-auto">
           Meet Our Team
         </h1>
         <div className="mx-auto max-w-[960px] grid md:grid-cols-3 grid-col-1 gap-6 ">
           {teamMembers.map((member, index) => {
             return (
-              <div key={index} className="w-[303px] p-[8px] mx-auto border-opacity-70 border border-forest-900 rounded-2xl group  ">
+              <div
+                data-aos="fade-up"
+                data-aos-delay={400}
+                key={index}
+                className="w-[303px] p-[8px] mx-auto border-opacity-70 border border-forest-900 rounded-2xl group"
+              >
                 <div className="relative w-[287px] rounded-2xl h-[360px]">
                   <div className="h-full">
                     <Image
@@ -82,15 +85,19 @@ const OurTeam = () => {
                       unoptimized
                     />
                   </div>
-                  <div className="absolute rounded-2xl bottom-0 z-20 h-[105px] group-hover:h-[194px] overflow-hidden transition-all duration-300  w-full backdrop-blur-[8px] text-[#E8FFF8A6]">
+                  <div className="absolute rounded-2xl bottom-0 z-20 h-[105px] group-hover:h-[194px] overflow-hidden transition-all duration-300 w-full backdrop-blur-[8px] text-[#E8FFF8A6]">
                     <div className=" flex flex-col items-center group-hover:px-0 p-3 ">
-                      <h5 className="text-[1.25rem] font-normal">{member.role}</h5>
-                      <h4 className="text-[1.25rem] font-bold mt-1">{member.name}</h4>
+                      <h5 className="text-[1.25rem] font-normal">
+                        {member.role}
+                      </h5>
+                      <h4 className="text-[1.25rem] font-bold mt-1">
+                        {member.name}
+                      </h4>
                       <p className="text-center italic group-hover:hidden block text-[14px]">
-                        {member.description}
+                        &quot;{member.description}&quot;
                       </p>
-                      <p className="text-center italic hidden group-hover:block transition-all duration-300  text-[14px]">
-                        {member.description2}
+                      <p className="text-center italic hidden group-hover:block transition-all duration-300 text-[14px] px-[8px]">
+                        &quot;{member.description2}&quot;
                       </p>
                     </div>
                   </div>
