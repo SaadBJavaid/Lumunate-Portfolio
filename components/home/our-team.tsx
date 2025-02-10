@@ -85,7 +85,7 @@ const OurTeam = () => {
                       unoptimized
                     />
                   </div>
-                  <div className="absolute rounded-2xl bottom-0 z-20 h-[105px] group-hover:h-[194px] overflow-hidden transition-all duration-300 w-full backdrop-blur-[8px] text-[#E8FFF8A6]">
+                  <div className="absolute rounded-2xl bottom-0 z-20 h-[105px] group-hover:h-[194px] overflow-hidden transition-all duration-300 w-full backdrop-blur-[12px] text-[#E8FFF8A6]">
                     <div className=" flex flex-col items-center group-hover:px-0 p-3 ">
                       <h5 className="text-[1.25rem] font-normal">
                         {member.role}
