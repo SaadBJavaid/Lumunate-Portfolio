@@ -46,12 +46,12 @@ const Features = () => {
           <div className="h-[100%] md:w-[702px] md:py-0 py-8 md:px-0 md:pl-4 px-8 w-full flex justify-center">
             <div className="md:max-w-[526px] w-full p-4">
               <div className="">
-                <h1 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text md:pb-4 pb-2 font-menda text-[1.3rem] font-medium text-transparent md:text-[24px] lg:text-4xl">
+                <h1 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text md:pb-4 pb-2 font-menda text-[1.3rem] font-medium text-transparent md:text-[32px] xl:text-4xl">
                   Portfolio Management
                 </h1>
               </div>
               <div className="  lg:mt-[20px] mt-0">
-                <ul className="lg:text-[22px] text-[14px] list-disc font-medium">
+                <ul className="xl:text-[22px] md:text-[18px] text-[14px] list-disc font-medium">
                   <li>
                     Real-time tracking of cryptocurrency assets and holdings
                   </li>

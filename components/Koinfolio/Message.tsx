@@ -5,17 +5,17 @@ const Message = () => {
   return (
     <section>
       <div className="mx-auto max-w-[1440px] py-24  px-4 sm:px-6">
-        <div className="mx-auto md:max-w-[1110px] relative">
-            <div className=" absolute lg:-top-20 -top-6 md:-top-8 -left-2 lg:-left-20">
-            <Image className="!w-[24px] md:!w-[40px] lg:!w-[70px]"
+        <div className="mx-auto lg:max-w-[1110px] relative">
+            <div className=" absolute xl:-top-20 -top-6 md:-top-10 -left-2 xl:-left-20">
+            <Image className="!w-[24px] md:!w-[40px] xl:!w-[70px]"
               src="/koinfolio/quotation.png"
               alt=""
               width={70}
               height={58}
               />
             </div>
-          <div>
-            <p className="lg:text-[36px] md:text-[24px]  text-[14px] md:leading-[45px]">
+          <div className=" px-4 xl:px-0">
+            <p className="xl:text-[36px] md:text-[24px]  text-[14px] md:leading-[45px]">
               “The team at Lumunate is simply the best. They do the best jobs as
               always and have brought our idea for Koinfolio to life. Will
               continue the work with them for sure!”
