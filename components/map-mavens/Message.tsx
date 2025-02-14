@@ -9,7 +9,7 @@ const Message = () => {
             <div className=" absolute xl:-top-20 -top-6 md:-top-10 -left-2 xl:-left-20">
             <Image className="!w-[24px] md:!w-[40px] xl:!w-[70px]"
               src="/koinfolio/quotation.png"
-              alt="Lumunate Koinfolio - Quotation"
+              alt="Lumunate Map Mavens - Quotation"
               width={70}
               height={58}
               />
@@ -24,8 +24,8 @@ const Message = () => {
           </div>
           <div className=" flex justify-end">
             <Image className=" !w-[145px] md:!w-[245px]"
-              src="/koinfolio/logo.png"
-              alt="Lumunate Koinfolio - Logo"
+              src="/map-mavens/logo.png"
+              alt="Lumunate Map Mavens - Logo"
               width={225}
               height={58}
               />
