@@ -1,7 +1,7 @@
 import Cta from '@/components/home/cta'
-import Features from '@/components/koinfolio/Features'
-import Hero from '@/components/koinfolio/Hero'
-import Message from '@/components/koinfolio/Message'
+import Features from '@/components/Koinfolio/Features'
+import Hero from '@/components/Koinfolio/Hero'
+import Message from '@/components/Koinfolio/Message'
 import React from 'react'
 
 const page = () => {
