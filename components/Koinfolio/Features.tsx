@@ -1,25 +1,24 @@
 import Image from "next/image";
 import React from "react";
+import { FeaturesStyle } from "../ProjectPagesStyling/ProjectPageStyling";
 
 const Features = () => {
   return (
     <section>
-      <div className="mx-auto max-w-[1440px] md:py-44 py-12 px-4 sm:px-6">
+      <div className={FeaturesStyle.container}>
         <div>
-          <h1 className=" animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-menda text-[1.5rem] font-medium text-transparent md:text-[56px]">
-            Product Features{" "}
-          </h1>
+          <h1 className={FeaturesStyle.heading}>Product Features </h1>
         </div>
-        <div className="flex md:flex-row flex-col border-[1px] border-[#374151] rounded-[29px] md:mt-[60px] mt-4 items-center text-[#FFFFFFA6]">
-          <div className=" md:w-[702px] md:py-0 py-8 md:pl-3 md:px-0 px-8 w-full flex justify-center">
-            <div className="md:max-w-[526px] w-full p-4">
+        <div className={FeaturesStyle.cardOneContainer}>
+          <div className={FeaturesStyle.cardOneLeftContainer}>
+            <div className={FeaturesStyle.cardOneLeftContainerInner}>
               <div className="">
-                <h1 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text md:pb-4 pb-2 font-menda text-[1.3rem] font-medium text-transparent lg:text-4xl md:text-[30px]">
+                <h1 className={FeaturesStyle.AnalysisHeading}>
                   Market Analysis
                 </h1>
               </div>
-              <div className="  lg:mt-[20px] md:mt-3 mt-2">
-                <ul className="lg:text-[22px] md:text-[18px] text-[14px] list-disc font-medium ">
+              <div className={FeaturesStyle.CardOneListContainer}>
+                <ul className={FeaturesStyle.CardOneList}>
                   <li>Access to in-depth market data and insights</li>
                   <li>Historical price tracking and trend analysis</li>
                   <li>Bubble visualization for intuitive market comparisons</li>
@@ -31,9 +30,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[702px] w-full">
+          <div className={FeaturesStyle.CardOneRightContainer}>
             <Image
-              className=" scale-[1.01]"
+              className={FeaturesStyle.CardOneImage}
               src="/koinfolio/analysisPic.png"
               alt="Lumunate Koinfolio - Analysis"
               layout="responsive"
@@ -42,16 +41,16 @@ const Features = () => {
             />
           </div>
         </div>
-        <div className="flex md:flex-row flex-col border-[1px] border-[#374151] rounded-[29px] md:mt-[60px] mt-10 items-center  text-[#FFFFFFA6]">
-          <div className="h-[100%] md:w-[702px] md:py-0 py-8 md:px-0 md:pl-4 px-8 w-full flex justify-center">
-            <div className="md:max-w-[526px] w-full p-4 xl:p-0">
+        <div className={FeaturesStyle.CardTwoContainer}>
+          <div className={FeaturesStyle.CardTwoLeftContainer}>
+            <div className={FeaturesStyle.cardTwoLeftContainerInner}>
               <div className="">
-                <h1 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text md:pb-4 pb-2 font-menda text-[1.3rem] font-medium text-transparent lg:text-[32px] xl:text-4xl">
+                <h1 className={FeaturesStyle.ManagementHeading}>
                   Portfolio Management
                 </h1>
               </div>
-              <div className="  lg:mt-[20px] mt-0">
-                <ul className="xl:text-[22px] md:text-[18px] text-[14px] list-disc font-medium">
+              <div className={FeaturesStyle.CardTwoListContainer}>
+                <ul className={FeaturesStyle.CardTwoList}>
                   <li>
                     Real-time tracking of cryptocurrency assets and holdings
                   </li>
@@ -66,9 +65,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[702px] w-full">
+          <div className={FeaturesStyle.CardOneRightContainer}>
             <Image
-              className=" scale-[1.01]"
+              className={FeaturesStyle.CardOneImage}
               src="/koinfolio/management.png"
               alt="Lumunate Koinfolio - Management"
               layout="responsive"
