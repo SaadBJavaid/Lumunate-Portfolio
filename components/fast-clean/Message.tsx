@@ -16,15 +16,13 @@ const Message = () => {
             </div>
           <div className=" px-4 xl:px-0">
             <p className="xl:text-[36px] md:text-[24px]  text-[14px] md:leading-[45px]">
-              “The team at Lumunate is simply the best. They do the best jobs as
-              always and have brought our idea for Koinfolio to life. Will
-              continue the work with them for sure!”
+            “Lumunate helped us turn our concept for a customizable maps platform into a reality. Their team designed an intuitive interface, made everything editable in the interface and ensured a flawless user experience. We’ve received rave reviews from our users and the app has seen tremendous growth since it s launch. Will be back for future upgrades!”
             </p>
-            <p className="md:text-[26px] text-[14px] mt-5">Ebrahim - <span className="text-[#8A9688]">CEO Koinfolio</span></p>
+            <p className="md:text-[26px] text-[14px] mt-5">Felicio Perk - <span className="text-[#8A9688]">CEO Fast Clean</span></p>
           </div>
           <div className=" flex justify-end">
-            <Image className=" !w-[145px] md:!w-[245px]"
-              src="/fast-clean/logo.png"
+            <Image className=" !w-[70px] md:!w-[105px]"
+              src="/fast-clean/logo.svg"
               alt="Lumunate Fast Clean - Logo"
               width={225}
               height={58}

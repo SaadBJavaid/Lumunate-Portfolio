@@ -33,7 +33,7 @@ const Features = () => {
           <div className={FeaturesStyle.CardOneRightContainer}>
             <Image
               className={FeaturesStyle.CardOneImage}
-              src="/koinfolio/analysisPic.png"
+              src="/koinfolio/analysis.png"
               alt="Lumunate Koinfolio - Analysis"
               layout="responsive"
               width={100}

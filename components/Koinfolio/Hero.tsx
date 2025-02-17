@@ -1,17 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { HeroStyle } from "../ProjectPagesStyling/ProjectPageStyling";
 
 const Hero = () => {
   return (
     <section>
-      <div className="mx-auto max-w-[1440px] md:py-24 py-12 px-4 sm:px-6">
+      <div className={`${HeroStyle.HeroContainer}`}>
         <div className="flex md:flex-row flex-col items-center text-[#FFFFFFA6]">
           <div className="md:w-[835px] w-auto ">
             <h1 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-menda text-[1.3rem] font-medium text-transparent md:text-4xl">
               Koinfolio
             </h1>
-            <div className=" max-w-[620px] md:mt-[20px] mt-2">
+            <div className=" max-w-[640px] md:mt-[20px] mt-2">
               <p className="md:text-[22px] text-[14px] font-medium ">
                 Koinfolio is a comprehensive cryptocurrency portfolio management
                 platform designed for crypto investors to track, analyze and
@@ -34,16 +35,17 @@ const Hero = () => {
             </div>
             <p className="h-[0.1px] bg-[#FFFFFFA6]" />
             <div className="w-[100%] flex justify-between">
-              <p>Preview:</p>
-              <Link className="hover:text-blue-500 hover:underline"
-                href="https://koinfolio.com/en"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {/* <a className="text-blue-500 hover:underline"> */}
-                  https://koinfolio.com/en
-                {/* </a> */}
-              </Link>
+              <p>Skills</p>
+              <ul className="text-end">
+                <li>Next.js</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>API Integration</li>
+                <li>AWS</li>
+                <li>Webhooks</li>
+                <li>Payment Processing</li>
+                <li>Figma</li>
+              </ul>
             </div>
           </div>
         </div>
