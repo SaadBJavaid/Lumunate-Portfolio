@@ -37,7 +37,7 @@ const Hero = () => {
             </div>
             <p className="h-[0.1px] bg-[#FFFFFFA6]" />
             <div className="w-[100%] flex justify-between">
-              <p>Preview:</p>
+              <p>Skills</p>
               <ul className="text-end">
                 <li>Next.js</li>
                 <li>Node.js</li>

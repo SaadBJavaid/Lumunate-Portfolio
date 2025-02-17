@@ -29,16 +29,17 @@ const Hero = () => {
             </div>
             <p className="h-[0.1px] bg-[#FFFFFFA6]" />
             <div className="w-[100%] flex justify-between">
-              <p>Preview:</p>
-              <Link className="hover:text-blue-500 hover:underline"
-                href="https://koinfolio.com/en"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {/* <a className="text-blue-500 hover:underline"> */}
-                  https://koinfolio.com/en
-                {/* </a> */}
-              </Link>
+            <p>Skills</p>
+              <ul className="text-end">
+                <li>Next.js</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>API Integration</li>
+                <li>AWS</li>
+                <li>Webhooks</li>
+                <li>Payment Processing</li>
+                <li>Figma</li>
+              </ul>
             </div>
           </div>
         </div>
