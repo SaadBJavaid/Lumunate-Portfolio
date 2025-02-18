@@ -1,5 +1,3 @@
-import { Heading } from "@react-email/components";
-
 export const FeaturesStyle = {
   container: "mx-auto max-w-[1440px] md:py-44 py-12 px-4 sm:px-6",
   heading:

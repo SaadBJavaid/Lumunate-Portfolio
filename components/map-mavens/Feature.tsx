@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { features } from "process";
 import React from "react";
 import { FeaturesStyle } from "../ProjectPagesStyling/ProjectPageStyling";
 
