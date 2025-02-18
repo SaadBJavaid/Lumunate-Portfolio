@@ -7,7 +7,7 @@ const Hero = () => {
     <section>
       <div className={`${HeroStyle.HeroContainer}`}>
         <div className={`${HeroStyle.DetailsContainer}`}>
-          <div className={`md:w-[702px] ${HeroStyle.LeftSideContainer}`}>
+          <div className={`${HeroStyle.LeftSideContainer}`}>
             <h1 className={`${HeroStyle.Heading}`}>
               Koinfolio
             </h1>
