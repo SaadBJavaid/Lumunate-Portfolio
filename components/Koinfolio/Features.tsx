@@ -30,9 +30,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className={FeaturesStyle.CardOneRightContainer}>
+          <div className={FeaturesStyle.CardRightContainer}>
             <Image
-              className={FeaturesStyle.CardOneImage}
+              className={FeaturesStyle.CardImage}
               src="/koinfolio/analysis.png"
               alt="Lumunate Koinfolio - Analysis"
               layout="responsive"
@@ -65,9 +65,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className={FeaturesStyle.CardOneRightContainer}>
+          <div className={FeaturesStyle.CardRightContainer}>
             <Image
-              className={FeaturesStyle.CardOneImage}
+              className={FeaturesStyle.CardImage}
               src="/koinfolio/management.png"
               alt="Lumunate Koinfolio - Management"
               layout="responsive"

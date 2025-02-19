@@ -31,9 +31,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[702px] w-full">
+          <div className={FeaturesStyle.CardRightContainer}>
             <Image
-              className=" scale-[1.01]"
+              className={FeaturesStyle.CardImage}
               src="/ace-my-exams/resources.png"
               alt="Lumunate AceMyExams - Analysis"
               layout="responsive"
@@ -46,7 +46,7 @@ const Features = () => {
           <div className={FeaturesStyle.CardTwoLeftContainer}>
             <div className={FeaturesStyle.cardTwoLeftContainerInner}>
               <div className="">
-                <h1 className={FeaturesStyle.ManagementHeading}>
+                <h1 className={`${FeaturesStyle.ManagementHeading} leading-[28px] lg:leading-9 xl:leading-[44px]`}>
                   Platform <br className=" hidden md:block" />
                   Management & <br className="hidden md:block" /> Reviews
                 </h1>
@@ -64,9 +64,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[702px] w-full">
+          <div className={FeaturesStyle.CardRightContainer}>
             <Image
-              className=" scale-[1.01]"
+              className={FeaturesStyle.CardImage}
               src="/ace-my-exams/management.png"
               alt=""
               layout="responsive"

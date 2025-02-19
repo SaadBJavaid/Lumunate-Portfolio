@@ -31,9 +31,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className={FeaturesStyle.CardOneRightContainer}>
+          <div className={FeaturesStyle.CardRightContainer}>
             <Image
-              className={FeaturesStyle.CardOneImage}
+              className={FeaturesStyle.CardImage}
               src="/map-mavens/creation.png"
               alt="Lumunate Map Mavens - Analysis"
               layout="responsive"
@@ -62,9 +62,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className={FeaturesStyle.CardOneRightContainer}>
+          <div className={FeaturesStyle.CardRightContainer}>
             <Image
-              className={FeaturesStyle.CardOneImage}
+              className={FeaturesStyle.CardImage}
               src="/map-mavens/collaboration.png"
               alt="Lumunate Map Mavens - Management"
               layout="responsive"

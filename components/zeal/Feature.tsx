@@ -31,9 +31,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[702px] w-full">
+          <div className={FeaturesStyle.CardRightContainer}>
             <Image
-              className=" scale-[1.01]"
+              className={FeaturesStyle.CardImage}
               src="/zeal/Technical.png"
               alt="Lumunate Zeal - Analysis"
               layout="responsive"
@@ -62,9 +62,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[702px] w-full">
+          <div className={FeaturesStyle.CardRightContainer}>
             <Image
-              className=" scale-[1.01]"
+              className={FeaturesStyle.CardImage}
               src="/zeal/feature.png"
               alt="Lumunate Zeal - Management"
               layout="responsive"

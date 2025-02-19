@@ -19,7 +19,7 @@ const Features = () => {
                   Smart Event Discovery
                 </h1>
               </div>
-              <div className=" mt-[4px]">
+              <div className={`${FeaturesStyle.CardOneListContainer}`}>
                 <ul className={`${FeaturesStyle.CardOneList}`}>
                   <li>
                     Real-time concert discovery powered by TicketMaster API
@@ -37,9 +37,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[714px] w-full">
+          <div className={`${FeaturesStyle.CardRightContainer}`}>
             <Image
-              className=" scale-[1.01]"
+              className={`${FeaturesStyle.CardImage}`}
               src="/ayse/discovery.png"
               alt="Lumunate Ayse - Analysis"
               layout="responsive"
@@ -50,7 +50,7 @@ const Features = () => {
         </div>
         <div className={`${FeaturesStyle.CardTwoContainer}`}>
           <div className={`${FeaturesStyle.CardTwoLeftContainer}`}>
-            <div className="md:max-w-[526px] w-full p-4">
+            <div className={`${FeaturesStyle.cardTwoLeftContainerInner}`}>
               <div className="">
                 <h1 className={`${FeaturesStyle.ManagementHeading}`}>
                 Marketplace & Community
@@ -77,9 +77,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[714px] w-full">
+          <div className={`${FeaturesStyle.CardRightContainer}`}>
             <Image
-              className=" scale-[1.01]"
+              className={`${FeaturesStyle.CardImage}`}
               src="/ayse/marketplace.png"
               alt="Lumunate Ayse - Management"
               layout="responsive"

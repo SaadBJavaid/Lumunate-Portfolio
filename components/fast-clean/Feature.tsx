@@ -35,9 +35,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[702px] w-full">
+          <div className={FeaturesStyle.CardRightContainer}>
             <Image
-              className=" scale-[1.01]"
+              className={FeaturesStyle.CardImage}
               src="/fast-clean/booking.png"
               alt="Lumunate Fast Clean - Analysis"
               layout="responsive"
@@ -68,9 +68,9 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[702px] w-full">
+          <div className={FeaturesStyle.CardRightContainer}>
             <Image
-              className=" scale-[1.01]"
+              className={FeaturesStyle.CardImage}
               src="/fast-clean/management.png"
               alt="Lumunate Fast Clean - Management"
               layout="responsive"
