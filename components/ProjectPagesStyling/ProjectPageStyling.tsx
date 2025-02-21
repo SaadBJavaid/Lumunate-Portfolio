@@ -24,7 +24,7 @@ export const FeaturesStyle = {
     "animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text md:pb-4 pb-2 font-menda text-[1.3rem] font-medium text-transparent lg:text-[32px] xl:text-4xl",
   CardTwoListContainer: "mt-[4px]",
   CardTwoList:
-    "xl:text-[22px] md:text-[18px] text-[14px] list-disc font-medium lg:ml-[6%] ml-[20px]",
+    "xl:text-[22px] md:text-[16px] text-[14px] list-disc font-medium lg:ml-[6%] ml-[20px]",
 };
 
 export const HeroStyle = {

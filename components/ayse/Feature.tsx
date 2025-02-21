@@ -7,9 +7,7 @@ const Features = () => {
     <section>
       <div className={`${FeaturesStyle.container}`}>
         <div>
-          <h1 className={`${FeaturesStyle.heading}`}>
-            Product Features
-          </h1> 
+          <h1 className={`${FeaturesStyle.heading}`}>Product Features</h1>
         </div>
         <div className={`${FeaturesStyle.cardOneContainer}`}>
           <div className={`${FeaturesStyle.cardOneLeftContainer}`}>
@@ -31,8 +29,9 @@ const Features = () => {
                     Dynamic content management with personalized event
                     recommendations
                   </li>
-                  <li>Customizable user profiles for personalized experiences</li>
-                  
+                  <li>
+                    Customizable user profiles for personalized experiences
+                  </li>
                 </ul>
               </div>
             </div>
@@ -53,25 +52,18 @@ const Features = () => {
             <div className={`${FeaturesStyle.cardTwoLeftContainerInner}`}>
               <div className="">
                 <h1 className={`${FeaturesStyle.ManagementHeading}`}>
-                Marketplace & Community
+                  Marketplace & Community
                 </h1>
               </div>
               <div className={`${FeaturesStyle.CardTwoListContainer}`}>
                 <ul className={`${FeaturesStyle.CardTwoList}`}>
                   <li>
-                  Integrated ticket marketplace for buying and selling concert tickets
-
+                    Integrated ticket marketplace for buying and selling concert
+                    tickets
                   </li>
-                  <li>
-                  Secure in-app transaction processing
-
-                  </li>
-                  <li>Community-driven event discussions and sharing
-</li>
-                  <li>
-                  Real-time event updates and notifications
-                  
-                  </li>
+                  <li>Secure in-app transaction processing</li>
+                  <li>Community-driven event discussions and sharing</li>
+                  <li>Real-time event updates and notifications</li>
                   <li>Complementary web platform for extended accessibility</li>
                 </ul>
               </div>

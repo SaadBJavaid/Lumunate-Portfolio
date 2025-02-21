@@ -1,10 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import { HeroStyle } from "../ProjectPagesStyling/ProjectPageStyling";
+import LeftBlurred from "../ProjectPagesStyling/LeftBlurred";
+import RightBlurred from "../ProjectPagesStyling/RightBlurred";
 
 const Hero = () => {
   return (
     <section>
+      <LeftBlurred/>
+      <RightBlurred />
       <div className={HeroStyle.HeroContainer}>
         <div className={HeroStyle.DetailsContainer}>
           <div className={HeroStyle.LeftSideContainer}>
