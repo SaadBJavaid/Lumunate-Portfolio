@@ -24,3 +24,21 @@ html {
 {
   background-image: url('/footer-image.jpeg');
 }
+
+@keyframes autoRun {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--slider-width) * -1);
+  }
+}
+
+@keyframes reversePlay {
+  from {
+    left: calc(var(--slider-width) * -1);
+  }
+  to {
+    left: 100%;
+  }
+}

@@ -21,7 +21,6 @@ import PageIllustration from "@/components/home/page-illustration";
 import Hero from "@/components/home/hero-home";
 import Workflows from "@/components/home/workflows";
 import Features from "@/components/home/features";
-// import Testimonials from "@/components/home/testimonials";
 import Cta from "@/components/home/cta";
 import WhyChooseUs from "@/components/home/why-choose-us";
 import ContactForm from "@/components/home/contact-us";
@@ -36,7 +35,6 @@ export default function Home() {
       <Features />
       <WhyChooseUs />
       <Workflows />
-      {/* <Testimonials /> */}
       <TestimonialSection/>
       <OurTeam/>
       <ContactForm />
