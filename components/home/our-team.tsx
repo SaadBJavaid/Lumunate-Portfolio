@@ -54,7 +54,7 @@ const OurTeam = () => {
       description: "Strategic leadership and business growth.",
       description2:
         "Specializes in content strategy and execution by focusing on audience engagement, storytelling excellence and results-driven campaigns that elevate brand presence.",
-      image: "/images/team-members/Heer.jpeg",
+      image: "/images/team-members/heer.jpeg",
       alt: "Lumunate Our Team - Heer",
     },
   ];
