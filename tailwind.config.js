@@ -24,7 +24,7 @@ module.exports = {
         raleway: ["var(--font-raleway)", "sans-serif"],
       },
       fontSize: {
-        xs: ["0.8125rem", { lineHeight: "1.5384" }],
+        xs: ["12px", { lineHeight: "1.5384" }],
         sm: ["0.875rem", { lineHeight: "1.5715" }],
         base: ["0.9375rem", { lineHeight: "1.5333", letterSpacing: "-0.0125em" }],
         lg: ["1.125rem", { lineHeight: "1.5", letterSpacing: "-0.0125em" }],

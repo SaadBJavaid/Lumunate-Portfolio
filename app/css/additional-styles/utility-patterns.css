@@ -1,7 +1,7 @@
 /* Buttons */
 .btn,
 .btn-sm {
-  @apply inline-flex items-center justify-center whitespace-nowrap rounded-lg text-sm font-medium transition-all;
+  @apply inline-flex items-center justify-center whitespace-nowrap rounded-lg text-[12px] font-medium transition-all;
 }
 
 .btn {

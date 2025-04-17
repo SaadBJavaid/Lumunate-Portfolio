@@ -4,13 +4,13 @@ import Link from "next/link";
 export default function HeroHome() {
   return (
     <section style={{ height: "calc(100vh - 77px" }} className=" ">
-      <div className="mx-auto max-w-[1440px] h-full px-4 sm:px-6">
+      <div className=" h-full px-4 sm:px-6">
         {/* Hero content */}
         <div className="py-3 h-full">
           {/* Section header */}
           <div className="text-center h-full flex flex-col">
             <h1
-              className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-menda text-[1.3rem] font-medium text-transparent md:text-4xl max-w-5xl mx-auto"
+              className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-menda text-[1.1rem] font-medium text-transparent md:text-4xl max-w-5xl mx-auto"
               data-aos="fade-up"
             >
               Empowering Your Business with
@@ -19,7 +19,7 @@ export default function HeroHome() {
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
-                className="mb-8 text-[14px] sm:text-lg text-[#E8FFF8]/65"
+                className="mb-8 text-[12px] sm:text-lg text-[#E8FFF8]/65"
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
@@ -30,12 +30,12 @@ export default function HeroHome() {
             </div>
             
             <div
-              className="max-w-[1440px] overflow-hidden flex-1 w-full"
+              className=" overflow-hidden flex-1 w-full"
               data-aos="fade-up"
             >
               <Image
                 src={"/images/hero-img.png"}
-                className="!h-full object-cover object-center"
+                className="!h-full object-cover md:object-contain object-center"
                 width={1623}
                 height={538}
                 layout="responsive"
@@ -49,7 +49,7 @@ export default function HeroHome() {
               data-aos-anchor-placement="top-bottom"
             >
               <Link
-                className="btn group mb-4 bg-forest-600 hover:bg-forest-800 hover:transition-all hover:duration-150 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 w-auto rounded-full px-16 mt-8"
+                className="btn group mb-4 bg-forest-600 hover:bg-forest-800 hover:transition-all hover:duration-150 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 w-auto rounded-full px-12 sm:px-16 mt-8"
                 href="https://calendly.com/saad-b-javaid22/consultation"
                 target="_blank"
               >
