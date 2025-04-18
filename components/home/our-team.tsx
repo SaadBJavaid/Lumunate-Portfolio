@@ -75,12 +75,8 @@ const OurTeam = () => {
             return (
               <div className={` sm:flex [@media(min-width:992px)]:block block  ${member.justify} justify-self-auto [@media(min-width:992px)]:justify-self-auto`} key={index}>
 
-              <div
-                data-aos="fade-up"
-                data-aos-delay={400}
-                
-                className="w-[303px] p-[8px] mx-auto border-opacity-70 border border-forest-900 rounded-2xl group"
-                >
+<div className="w-[303px] mx-auto rounded-2xl p-[1px] bg-gradient-to-r from-[#003E2980] via-[#37513880] to-[#23371FCC] group">
+<div className="rounded-2xl bg-black p-[8px]">
                 <div className="relative w-[287px] rounded-2xl h-[360px]">
                   <div className="h-full">
                     <Image
@@ -110,6 +106,7 @@ const OurTeam = () => {
                     </div>
                   </div>
                 </div>
+              </div>
               </div>
                 </div>
             );
