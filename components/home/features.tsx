@@ -19,11 +19,11 @@ export default function Features() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-forest-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-forest-200/50">
-              <span className="inline-flex text-[14px] sm:text-[16px] bg-gradient-to-r from-white to-white bg-clip-text text-transparent">
+              <span className="inline-flex text-[12px] sm:text-[16px] bg-gradient-to-r from-white to-white bg-clip-text text-transparent">
                 Services
               </span>
             </div>
-            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-menda text-[1.3rem] font-medium text-transparent md:text-4xl">
+            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-menda text-[1.1rem] font-medium text-transparent md:text-4xl">
               Comprehensive IT Solutions to Scale Your Business
             </h2>
             {/* <p className="text-lg text-forest-200/65">
@@ -42,11 +42,11 @@ export default function Features() {
             />
           </div> */}
           {/* Items */}
-          <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
+          <div className="mx-auto grid max-w-sm sm:gap-12 gap-20 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
             <article data-aos="fade-up" data-aos-offset="400">
               <Image className="mb-2" src={'/images/icons/webdev.svg'} width={29} height={24} alt="Lumunate Services - Web Development and Design" /> 
-              <h3 className="mb-1 font-menda font-semibold text-[1rem] text-gray-200">Web Development and Design</h3>
-              <p className="text-white/85">
+              <h3 className="mb-1 font-menda font-semibold text-[14px] sm:text-[1rem] text-gray-200">Web Development and Design</h3>
+              <p className="text-white/85 text-xs sm:text-base">
                 Delivering visually appealing, user-friendly and extensive web applications is at the core of what we do. From
                 custom web applications to landing pages, our services include UX/UI design, fullstack development, SEO
                 optimization and cross-browser compatibility
@@ -70,8 +70,8 @@ export default function Features() {
             </article>
             <article data-aos="fade-up" data-aos-offset="400">
             <Image className="mb-2" src={'/images/icons/mobile-programming.svg'} width={29} height={24} alt="Lumunate Services - Mobile App Development" /> 
-              <h3 className="mb-1 font-menda text-[1rem] font-semibold text-gray-200">Mobile App Development</h3>
-              <p className="text-white/85">
+              <h3 className="mb-1 font-menda sm:text-[1rem] text-[14px] font-semibold text-gray-200">Mobile App Development</h3>
+              <p className="text-white/85 text-xs sm:text-base">
                 We create scalable, intuitive and high-performance mobile applications for iOS, Android or cross-platform use.
                 Whether it&apos;s a customer-facing app or a business tool, we design, develop and deploy apps, that deliver
                 seamless user experiences
@@ -87,8 +87,8 @@ export default function Features() {
             </article>
             <article data-aos="fade-up" data-aos-offset="400">
             <Image className="mb-2" src={'/images/icons/data.svg'} width={29} height={24} alt="Lumunate Services - Systems Integration" /> 
-              <h3 className="mb-1 font-menda text-[1rem] font-semibold text-gray-200">Systems Integration</h3>
-              <p className="text-white/85">
+              <h3 className="mb-1 font-menda sm:text-[1rem] text-[14px] font-semibold text-gray-200">Systems Integration</h3>
+              <p className="text-white/85 text-xs sm:text-base">
                 Streamline your operations with custom API development and systems integration. We connect your existing tools,
                 applications and platforms, enabling seamless data flow, automation and improved operational efficiency.{" "}
               </p>
@@ -103,8 +103,8 @@ export default function Features() {
             </article>
             <article data-aos="fade-up" data-aos-offset="400">
             <Image className="mb-2" src={'/images/icons/Lock-Cloud.svg'} width={29} height={24} alt="Lumunate Services - IT Consulting & Cloud Solutions" /> 
-              <h3 className="mb-1 font-menda text-[1rem] font-semibold text-gray-200">IT Consulting & Cloud Solutions</h3>
-              <p className="text-white/85">
+              <h3 className="mb-1 font-menda sm:text-[1rem] text-[14px] font-semibold text-gray-200">IT Consulting & Cloud Solutions</h3>
+              <p className="text-white/85 text-xs sm:text-base">
                 We help businesses with cloud migration, infrastructure optimization and digital transformation strategies, while
                 ensuring scalability, security and performance.{" "}
               </p>
@@ -119,16 +119,16 @@ export default function Features() {
             </article>
             <article data-aos="fade-up" data-aos-offset="400">
             <Image className="mb-2" src={'/images/icons/megaphone.svg'} width={29} height={24} alt="Lumunate - Digital Marketing Services" /> 
-              <h3 className="mb-1 font-menda text-[1rem] font-semibold text-gray-200">Digital Marketing Services</h3>
-              <p className="text-white/85">
+              <h3 className="mb-1 font-menda sm:text-[1rem] text-[14px] font-semibold text-gray-200">Digital Marketing Services</h3>
+              <p className="text-white/85 text-xs sm:text-base">
                 From SEO and content marketing to social media management and paid ad campaigns, we craft data-driven strategies
                 that maximize your ROI and drive measurable growth{" "}
               </p>
             </article>
             <article data-aos="fade-up" data-aos-offset="400">
             <Image className="mb-2" src={'/images/icons/note-favorite.svg'} width={29} height={24} alt="Lumunate Services - Custom CMS Development" />  
-              <h3 className="mb-1 font-menda text-[1rem] font-semibold text-gray-200">Custom CMS Development</h3>
-              <p className="text-white/85">
+              <h3 className="mb-1 font-menda sm:text-[1rem] text-[14px] font-semibold text-gray-200">Custom CMS Development</h3>
+              <p className="text-white/85 text-xs sm:text-base">
                 From WordPress and Shopify to Drupal and Joomla, we offer seamless integrations, tailored e-commerce solutions and
                 much more.
               </p>

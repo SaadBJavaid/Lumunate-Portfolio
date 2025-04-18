@@ -206,7 +206,7 @@ export default function ContactFormClient() {
       <div className="mx-auto">
         <button
           type="submit"
-          className="btn  group mb-4 w-full bg-forest-600 hover:bg-forest-800 hover:transition-all hover:duration-150 text-white rounded-full px-8 py-3 text-[16px]"
+          className="btn  group mb-4 w-full bg-forest-600 hover:bg-forest-800 hover:transition-all hover:duration-150 text-white rounded-full px-12 py-3 text-[16px]"
         >
           <span className="relative inline-flex items-center">Submit</span>
         </button>

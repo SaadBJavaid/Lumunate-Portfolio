@@ -46,13 +46,13 @@ const Features = () => {
           <div className={FeaturesStyle.CardTwoLeftContainer}>
             <div className={FeaturesStyle.cardTwoLeftContainerInner}>
               <div className="">
-                <h1 className={`${FeaturesStyle.ManagementHeading} leading-[28px] lg:leading-9 xl:leading-[44px]`}>
+                <h1 className={`${FeaturesStyle.ManagementHeading} leading-[28px] lg:leading-9 xl:leading-[44px] text-[1rem] md: lg:text-[32px] xl:text-4xl`}>
                   Platform <br className=" hidden lg:block" />
                   Management & <br className="hidden lg:block" /> Reviews
                 </h1>
               </div>
               <div className={FeaturesStyle.CardTwoListContainer}>
-                <ul className={FeaturesStyle.CardTwoList}>
+                <ul className={`xl:text-[22px] lg:text-[16px] md:text-[14px] text-[12px] list-disc font-medium lg:ml-[6%] ml-[20px]`}>
                   <li>ReComprehensive admin panel for content management</li>
                   <li>Student performance tracking and analytics</li>
                   <li>Tutor-student connection system</li>

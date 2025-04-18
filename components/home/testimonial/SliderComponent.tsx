@@ -7,8 +7,8 @@ import { testimonials } from "./Testimonials";
 const SliderComponent = ({ reverse = false }) => {
   const [screenWidth, setScreenWidth] = useState(0);
 
-  const width = screenWidth > 768 ? 500 : 350;
-  const height = screenWidth > 768 ? 300 :  390;
+  const width = screenWidth > 768 ? 500 : 320;
+  const height = screenWidth > 768 ? 300 :  220;
   const quantity = testimonials.length;
   const animationDuration = 60;
 
@@ -46,7 +46,7 @@ const SliderComponent = ({ reverse = false }) => {
         {testimonials.map((testimonial, index) => (
           <div
             key={testimonial.id}
-            className={`relative rounded-2xl p-5 backdrop-blur-sm transition-opacity before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] bg-[linear-gradient(88.12deg,rgba(17,39,24,0.48)_3.17%,rgba(33,55,31,0.2304)_52.41%,rgba(17,39,24,0.48)_94.35%)]`}
+            className={`relative rounded-2xl md:p-5 p-3 backdrop-blur-sm transition-opacity before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] bg-[linear-gradient(88.12deg,rgba(17,39,24,0.48)_3.17%,rgba(33,55,31,0.2304)_52.41%,rgba(17,39,24,0.48)_94.35%)]`}
             style={{
               width: `${width}px`,
               height: `${height}px`,
@@ -59,7 +59,7 @@ const SliderComponent = ({ reverse = false }) => {
               filter: "grayscale(0)",
             }}
           >
-            <div className="flex flex-col h-full justify-between gap-4">
+            <div className="flex flex-col h-full justify-between gap-2 sm:gap-4">
               <div className="flex justify-between">
                 <div>
                   <Image
@@ -80,17 +80,17 @@ const SliderComponent = ({ reverse = false }) => {
                   />
                 </div>
               </div>
-              <p className="text-[#838AA7] before:content-['“'] after:content-['”']">
+              <p className="text-[#838AA7] text-[10px] md:text-[14px] before:content-['“'] after:content-['”']">
                 {testimonial.content}
               </p>
               <div className="">
                 <div className="flex items-center gap-3">
                   <div className="text-sm font-medium text-gray-200">
-                    <span>{testimonial.name}</span>
+                    <span className="text-[12px] md:[14px]">{testimonial.name}</span>
                     {testimonial.company && (
-                      <span className="text-gray-700"> - </span>
+                      <span className="text-gray-700 text-[12px] md:[14px]"> - </span>
                     )}
-                    <span className="text-forest-200/65 transition-colors hover:text-forest-500">
+                    <span className="text-forest-200/65 transition-colors hover:text-forest-500 text-[12px] md:[14px]">
                       {testimonial.company}
                     </span>
                   </div>
@@ -100,24 +100,6 @@ const SliderComponent = ({ reverse = false }) => {
           </div>
         ))}
       </div>
-      {/* <style jsx>{`
-        @keyframes autoRun {
-          from {
-            left: 100%;
-          }
-          to {
-            left: calc(${width}px * -1);
-          }
-        }
-        @keyframes reversePlay {
-          from {
-            left: calc(${width}px * -1);
-          }
-          to {
-            left: 100%;
-          }
-        }
-      `}</style> */}
     </div>
   );
 };
