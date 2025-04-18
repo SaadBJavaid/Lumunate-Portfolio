@@ -11,6 +11,7 @@ const OurTeam = () => {
         "Saad defines Lumunate’s vision and growth strategies, ensuring project success while empowering the entire team to deliver impactful results.",
       image: "/images/team-members/Saad.png",
       alt: "Lumunate Our Team - Saad Javaid",
+      justify:'sm:justify-self-end',
     },
     {
       name: "Anas Bin Arif",
@@ -20,6 +21,7 @@ const OurTeam = () => {
         "Anas drives technical excellence, leading the development team with expertise in all tech stacks and scalable architectures.",
       image: "/images/team-members/Anas.jpeg",
       alt: "Lumunate Our Team - Anas Bin Arif",
+      justify:'sm:justify-self-start',
     },
     {
       name: "Sherbano",
@@ -29,6 +31,7 @@ const OurTeam = () => {
         "The CMO leads brand strategy, ensuring data-driven campaigns, audience engagement and business visibility for Lumunate and its clients.",
       image: "/images/team-members/sherbano.jpeg",
       alt: "Lumunate Our Team - Sherbano",
+      justify:'sm:justify-self-end',
     },
     {
       name: "Faizan Haq",
@@ -38,6 +41,7 @@ const OurTeam = () => {
         "Faizan manages the development lifecycle, ensuring technical quality, code consistency and on-time project delivery.",
       image: "/images/team-members/faizan.jfif",
       alt: "Lumunate Our Team - Faizan Haq",
+      justify:'sm:justify-self-start',
     },
     {
       name: "Romaisa",
@@ -47,6 +51,7 @@ const OurTeam = () => {
         "Romaisa leads the creative team, overseeing the design process and ensuring visually compelling brand storytelling.",
       image: "/images/team-members/romaisa1.jpeg",
       alt: "Lumunate Our Team - Romaisa",
+      justify:'sm:justify-self-end',
     },
     {
       name: "Heer",
@@ -56,6 +61,7 @@ const OurTeam = () => {
         "Specializes in content strategy and execution by focusing on audience engagement, storytelling excellence and results-driven campaigns that elevate brand presence.",
       image: "/images/team-members/heer.jpeg",
       alt: "Lumunate Our Team - Heer",
+      justify:'sm:justify-self-start',
     },
   ];
   return (
@@ -64,15 +70,17 @@ const OurTeam = () => {
         <h1 className="mb-[32px] text-center animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.forest.200),theme(colors.gray.50),theme(colors.forest.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-menda text-[1.3rem] font-medium text-transparent md:text-4xl max-w-5xl mx-auto">
           Meet Our Team
         </h1>
-        <div className="mx-auto max-w-[960px] grid md:grid-cols-3 grid-col-1 gap-6 ">
+        <div className="mx-auto max-w-[960px] grid [@media(min-width:992px)]:grid-cols-3 sm:grid-cols-2 grid-col-1 gap-6 ">
           {teamMembers.map((member, index) => {
             return (
+              <div className={` sm:flex [@media(min-width:992px)]:block block  ${member.justify} justify-self-auto [@media(min-width:992px)]:justify-self-auto`} key={index}>
+
               <div
                 data-aos="fade-up"
                 data-aos-delay={400}
-                key={index}
+                
                 className="w-[303px] p-[8px] mx-auto border-opacity-70 border border-forest-900 rounded-2xl group"
-              >
+                >
                 <div className="relative w-[287px] rounded-2xl h-[360px]">
                   <div className="h-full">
                     <Image
@@ -93,16 +101,17 @@ const OurTeam = () => {
                       <h4 className="text-[1.25rem] font-bold mt-1">
                         {member.name}
                       </h4>
-                      <p className="text-center italic group-hover:hidden block text-[14px]">
+                      <p className="text-center italic group-hover:hidden block text-[12px] sm:text-[14px]">
                         &quot;{member.description}&quot;
                       </p>
-                      <p className="text-center italic hidden group-hover:block transition-all duration-300 text-[14px] px-[8px]">
+                      <p className="text-center italic hidden group-hover:block transition-all duration-300 text-[12px] sm:text-[14px] px-[8px]">
                         &quot;{member.description2}&quot;
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
+                </div>
             );
           })}
         </div>

@@ -232,7 +232,7 @@ export default function WhyChooseUs() {
               data-aos-delay={400}
             >
               <Link
-                className="btn group mb-4 w-auto bg-forest-600 hover:bg-forest-800 hover:transition-all hover:duration-150 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 rounded-full px-16"
+                className="btn group mb-4 w-auto bg-forest-600 hover:bg-forest-800 hover:transition-all hover:duration-150 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 rounded-full px-16 text-[12px] sm:text-[14px]"
                 href="https://calendly.com/saad-b-javaid22/consultation"
                 target="_blank"
               >

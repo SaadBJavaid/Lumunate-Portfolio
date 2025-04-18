@@ -35,7 +35,7 @@ export default function HeroHome() {
             >
               <Image
                 src={"/images/hero-img.png"}
-                className="!h-full object-cover md:object-contain object-center"
+                className="!h-full object-cover object-center"
                 width={1623}
                 height={538}
                 layout="responsive"
@@ -49,7 +49,7 @@ export default function HeroHome() {
               data-aos-anchor-placement="top-bottom"
             >
               <Link
-                className="btn group mb-4 bg-forest-600 hover:bg-forest-800 hover:transition-all hover:duration-150 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 w-auto rounded-full px-12 sm:px-16 mt-8"
+                className="btn group mb-4 bg-forest-600 hover:bg-forest-800 hover:transition-all hover:duration-150 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 w-auto rounded-full px-12 sm:px-16 mt-8 text-[12px] sm:text-[14px]"
                 href="https://calendly.com/saad-b-javaid22/consultation"
                 target="_blank"
               >
