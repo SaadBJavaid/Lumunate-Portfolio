@@ -51,7 +51,7 @@ const Features = () => {
                 </h1>
               </div>
               <div className={FeaturesStyle.CardTwoListContainer}>
-                <ul className={FeaturesStyle.CardTwoList}>
+                <ul className={`xl:text-[22px] lg:text-[16px] md:text-[14px] text-[12px] list-disc font-medium lg:ml-[6%] ml-[20px]`}>
                   <li>Interactive hackathon page for community engagement</li>
                   <li>Cross-device responsive design for universal access</li>
                   <li>Custom API integrations for healthcare services</li>
