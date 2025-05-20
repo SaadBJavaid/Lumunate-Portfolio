@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 
 import Header from "@/components/ui/header";
 import GoogleTagManager from "@/components/google-tag-manager/google-tag-manager";
-import ScrollToTop from "@/components/scrollToTop/ScrollToTop";
+// import ScrollToTop from "@/components/scrollToTop/ScrollToTop";
 
 
 const nacelle = localFont({
@@ -189,6 +189,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <GoogleTagManager />
+        <link rel="icon" href="/SYMBOL-08.png" />
       </head>
       <body
         className={`${nacelle.variable} ${mendaFont.variable} ${ralewayFont.variable} bg-black font-raleway text-base text-gray-200 antialiased`}
@@ -196,7 +197,7 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
           {children}
-          <ScrollToTop />
+          {/* <ScrollToTop /> */}
         </div>
       </body>
     </html>
