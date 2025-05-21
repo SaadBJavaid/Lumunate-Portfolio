@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 
 import Header from "@/components/ui/header";
 import GoogleTagManager from "@/components/google-tag-manager/google-tag-manager";
-// import ScrollToTop from "@/components/scrollToTop/ScrollToTop";
+import ScrollToTop from "@/components/scrollToTop/ScrollToTop";
 
 
 const nacelle = localFont({
@@ -197,7 +197,7 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
           {children}
-          {/* <ScrollToTop /> */}
+          <ScrollToTop />
         </div>
       </body>
     </html>
