@@ -65,13 +65,15 @@ export default function Footer() {
               </div>
               <div className="md:hidden flex flex-col justify-center items-center">
                 <div>
+                  <Link href='/'>
                   <Image
-                    src={"/logo.svg"}
+                    src={"/WORD MARK-04.png"}
                     width={160}
                     height={1}
                     alt="Lumunate Footer - Lumunate logo"
                     className="object-center !w-[160px] md:!w-[350px]"
-                  />
+                    />
+                    </Link>
                 </div>
                 <div className="flex gap-x-[3px] w-full md:gap-x-3 justify-start">
                   <Link
@@ -98,13 +100,15 @@ export default function Footer() {
             </div>
             <div className="md:w-[33%] w-[50%] hidden md:flex flex-col justify-center items-center">
               <div>
+                 <Link href='/'>
                 <Image
-                  src={"/logo.svg"}
+                  src={"/WORD MARK-04.png"}
                   width={350}
                   height={1}
                   alt="Lumunate Footer - Lumunate logo"
                   className="object-center !w-[125px] md:!w-[350px]"
-                />
+                  />
+                  </Link>
               </div>
               <div className="flex gap-x-[2px] md:gap-x-3 justify-center">
                 <Link

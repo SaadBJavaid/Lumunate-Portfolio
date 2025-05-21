@@ -6,7 +6,7 @@ const HeroTermOfService = () => {
     <section style={{ height: "calc(100vh - 77px" }} className='mx-auto max-w-[1440px] flex flex-col justify-center'>
       <div >
         <Image
-          src={"/logo.svg"}
+          src={"/newLogo.svg"}
           width={500}
           height={-1}
           alt="Footer logo"

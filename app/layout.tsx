@@ -189,6 +189,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <GoogleTagManager />
+        <link rel="icon" href="/SYMBOL-08.png" />
       </head>
       <body
         className={`${nacelle.variable} ${mendaFont.variable} ${ralewayFont.variable} bg-black font-raleway text-base text-gray-200 antialiased`}
