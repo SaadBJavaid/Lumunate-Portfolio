@@ -6,6 +6,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Footer from "@/components/ui/footer";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+
+const queryClient =new QueryClient();
 
 export default function DefaultLayout({
   children,
@@ -21,11 +25,14 @@ export default function DefaultLayout({
     });
   });
 
+
   return (
     <>
+    <QueryClientProvider client={queryClient} >
       <main className="relative flex grow flex-col">{children}</main>
 
       <Footer />
+    </QueryClientProvider>
     </>
   );
 }
