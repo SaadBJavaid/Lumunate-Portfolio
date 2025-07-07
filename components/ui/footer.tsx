@@ -147,7 +147,7 @@ export default function Footer() {
                   </div>
                   <div>
                     <Link
-                      href="tel: +923361000001"
+                      href="tel: +923396100001"
                       className="flex items-center"
                     >
                       <Image
@@ -158,7 +158,7 @@ export default function Footer() {
                         height={18}
                       />
                       <span className="text-[12px] hover:text-forest-400">
-                        +92 3361000001
+                        +92 3396100001
                       </span>
                     </Link>
                   </div>
