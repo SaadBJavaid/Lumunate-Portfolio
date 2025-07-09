@@ -30,7 +30,7 @@ export default function ContactForm() {
           </div>
           <div>
             <Link
-              href="tel: +923361000001"
+              href="tel: +923396100001"
               className="flex items-center"
             >
               <Image
@@ -40,7 +40,7 @@ export default function ContactForm() {
                 width={24}
                 height={24}
               />
-              <span className="text-[16px] lg:text-[20px] hover:text-forest-400">+92 3361000001</span>
+              <span className="text-[16px] lg:text-[20px] hover:text-forest-400">+92 3396100001</span>
             </Link>
           </div>
           <div className="flex items-center">
