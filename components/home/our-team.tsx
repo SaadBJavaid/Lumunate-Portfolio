@@ -15,7 +15,7 @@ const OurTeam = () => {
     },
     {
       name: "Anas Bin Arif",
-      role: "CTO",
+      role: "Co-Founder",
       description: "Technical strategy and innovation.",
       description2:
         "Anas drives technical excellence, leading the development team with expertise in all tech stacks and scalable architectures.",
