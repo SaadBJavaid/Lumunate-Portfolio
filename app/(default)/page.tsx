@@ -25,7 +25,6 @@ import Features from "@/components/home/features";
 import Cta from "@/components/home/cta";
 import WhyChooseUs from "@/components/home/why-choose-us";
 import ContactForm from "@/components/home/contact-us";
-import OurTeam from "@/components/home/our-team";
 import TestimonialSection from "@/components/home/testimonial/TestimonialSection";
 
 export default function Home() {
@@ -37,7 +36,6 @@ export default function Home() {
       <WhyChooseUs />
       <Workflows />
       <TestimonialSection/>
-      <OurTeam/>
       <ContactForm />
       <Cta />
     </>

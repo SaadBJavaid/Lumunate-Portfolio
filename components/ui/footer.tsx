@@ -26,7 +26,7 @@ export default function Footer() {
                       />
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       className="flex items-center justify-center text-forest-500 transition hover:text-forest-400"
                       href="#0"
@@ -55,11 +55,11 @@ export default function Footer() {
                         height={22}
                       />
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
                 <div className="md:block hidden">
                 <p className="font-raleway text-[10px] md:text-[14px] font-light text-[#BABABA]">
-                  Copyright ® Lumunate 2024
+                  Copyright ® Lumunate 2026
                 </p>
               </div>
               </div>
@@ -94,7 +94,7 @@ export default function Footer() {
 
               <div className="md:hidden block">
                 <p className="font-raleway text-[10px] md:text-[12px] font-light text-[#BABABA]">
-                  Copyright ® Lumunate 2024
+                  Copyright ® Lumunate 2026
                 </p>
               </div>
             </div>
@@ -126,74 +126,7 @@ export default function Footer() {
                 </Link>
               </div>
             </div>
-            <div className="md:w-[33%] w-[50%] flex flex-col items-end">
-                <div className="flex flex-col md:ml-0 ml-1 justify-center h-full content-center gap-y-[6px] text-[#BABABA]">
-                  <div>
-                    <Link
-                      href="mailto: marketing@luminate.com"
-                      className="flex items-center"
-                    >
-                      <Image
-                        src="/images/icons/mail-outline.svg"
-                        alt="Lumunate Footer - Email"
-                        className="md:mr-4 mr-3 md:!w-[24px]"
-                        width={18}
-                        height={18}
-                      />
-                      <span className="text-[12px] hover:text-forest-400">
-                        marketing@lumunate.com
-                      </span>
-                    </Link>
-                  </div>
-                  <div>
-                    <Link
-                      href="tel: +923396100001"
-                      className="flex items-center"
-                    >
-                      <Image
-                        src="/images/icons/phone-flip.svg"
-                        alt="Lumunate Footer - Phone"
-                        className="md:mr-4 mr-3  md:!w-[24px]"
-                        width={18}
-                        height={18}
-                      />
-                      <span className="text-[12px] hover:text-forest-400">
-                        +92 3396100001
-                      </span>
-                    </Link>
-                  </div>
-                  <div className="flex items-center">
-                    <Link
-                      href="https://wa.me/+923310200888"
-                      className="flex items-center"
-                    >
-                      <Image
-                        src="/images/icons/whatsapp.svg"
-                        alt="Lumunate Footer - Whatsapp"
-                        className="md:mr-4 mr-3 md:!w-[24px]"
-                        width={18}
-                        height={18}
-                      />
-                      <span className="text-[12px] hover:text-forest-400">
-                        +92 3310200888
-                      </span>
-                    </Link>
-                  </div>
-                  <div className="flex items-start">
-                    <Image
-                      src="/images/icons/location-pin.svg"
-                      alt="Lumunate Footer - Location"
-                      className="md:mr-4 mr-3 md:!w-[24px]"
-                      width={18}
-                      height={18}
-                    />
-                    <span className="md:text-[12px] text-[10px] leading-4 md:leading-4">
-                      Office # 2, 3rd Floor, Plaza 74, Bahria<br className="md:block hidden"/> Springs (North) Commercial, Bahria<br className="md:block hidden"/> Town Phase 7, Rawalpindi, Pakistan
-                    </span>
-                  </div>
-                </div>
-              
-            </div>
+
           </div>
         </div>
       </div>
